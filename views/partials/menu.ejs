@@ -1,0 +1,18 @@
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link <% if (typeof home_menu_link_active !== 'undefined') { %><%= home_menu_link_active %><% } %>" href="<%= site_url %>">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link <% if (typeof about_menu_link_active !== 'undefined') { %><%= about_menu_link_active %><% } %>" href="<%= site_url %>about-us/">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link <% if (typeof contact_menu_link_active !== 'undefined') { %><%= contact_menu_link_active %><% } %>" href="<%= site_url %>contact-us/">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link <% if (typeof cv_menu_link_active !== 'undefined') { %><%= cv_menu_link_active %><% } %>" href="<%= site_url %>cv/">CV</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link <% if (typeof technologies_menu_link_active !== 'undefined') { %><%= technologies_menu_link_active %><% } %>" href="<%= site_url %>technologies/">Technologies</a>
+      </li>      
+    </ul>
+      
