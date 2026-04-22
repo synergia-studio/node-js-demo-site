@@ -1,6 +1,6 @@
   const path = require('path');
 
-  class ContactUsController {
+    class ContactUsController {
 
         app;
         db;
@@ -45,9 +45,8 @@ s
         }
 
         // GET /contact-us/mail/:base64Json
-        async mail() {
+        async mail(base64Json) {
             var hostname = this.req.headers.host; // hostname = 'localhost:3000';
-            const base64Json = this.req.params.base64Json;
             const ContactUsModel = require('../models/ContactUsModel');
             const contactUs =  new ContactUsModel(this.db);
             var item = await contactUs.applyFromToken(base64Json);

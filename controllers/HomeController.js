@@ -1,6 +1,6 @@
   const path = require('path');
   
-  class HomeController {
+    class HomeController {
 
         app;
         req;

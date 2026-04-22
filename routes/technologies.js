@@ -1,7 +1,5 @@
 
-  const path = require('path');
-
-   module.exports = (app) => {
+module.exports = (app) => {
 
   app.get('/technologies', (req, res) => {
     const TechnologiesController = require('../controllers/TechnologiesController');

@@ -1,6 +1,6 @@
   const path = require('path');
 
-  class AboutUsController {
+    class AboutUsController {
 
         app;
         req;

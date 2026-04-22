@@ -1,6 +1,6 @@
   const path = require('path');
 
-  class CvController {
+    class CvController {
 
         app;
         req;
